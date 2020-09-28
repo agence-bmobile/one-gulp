@@ -1,15 +1,8 @@
 {
   "name": "one-gulp",
   "version": "0.3.0",
-  "description": "a ready to use set of gulp tasks",
   "main": "lib/one-gulp.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/one-gulp/one-gulp.git"
-  },
-  "author": "Fabrice CLAEYS & Hubert SABLONNIÈRE",
   "license": "MIT",
-  "homepage": "https://github.com/one-gulp/one-gulp",
   "dependencies": {
     "babel": "5.8.20",
     "browser-sync": "2.26.7",
@@ -39,7 +32,7 @@
     "gulp-plumber": "1.0.1",
     "gulp-remember": "^0.3.0",
     "gulp-rename": "1.2.2",
-    "gulp-sass": "2.0.4",
+    "gulp-sass": "4.1.0",
     "gulp-sort": "1.0.1",
     "gulp-sourcemaps": "1.5.2",
     "gulp-stylus": "2.0.1",
@@ -62,8 +55,5 @@
   },
   "devDependencies": {
     "expect.js": "0.3.1"
-  },
-  "scripts": {
-    "postinstall": "node ./postinstall/postinstall.js"
   }
 }
